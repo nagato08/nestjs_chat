@@ -26,4 +26,4 @@ EXPOSE 4000
 
 # 9. Commande de lancement
 # On utilise une commande qui lance les migrations Prisma PUIS l'app
-CMD npx prisma migrate deploy && node dist/main
+CMD npx prisma migrate deploy && node dist/src/main.js
